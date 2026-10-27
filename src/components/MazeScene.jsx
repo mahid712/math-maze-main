@@ -49,7 +49,10 @@ const MazeScene = ({ feedback, currentIndex = 0, totalQuestions = 15, strikes = 
   }
 
   return (
-    <div className="maze-scene-grid">
+    <div
+      className="maze-scene-grid"
+      style={{ backgroundImage: `url("${assetUrl('assets/maze-background.png')}")` }}
+    >
       
       {/* 1. THE TREASURE (Always at the very last coordinate) */}
       <div className="maze-entity" style={{ left: `${path[path.length - 1].left}%`, top: `${path[path.length - 1].top}%` }}>

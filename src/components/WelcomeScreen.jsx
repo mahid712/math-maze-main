@@ -20,7 +20,10 @@ const WelcomeScreen = ({ onPlay }) => {
   };
 
   return (
-    <div className={`welcome-screen ${isStarting ? 'fade-out' : ''}`}>
+    <div
+      className={`welcome-screen ${isStarting ? 'fade-out' : ''}`}
+      style={{ backgroundImage: `url("${assetUrl('assets/maze-background.png')}")` }}
+    >
       
       {/* Animated Floating Coins in the background */}
       <div className="floating-coins-container">

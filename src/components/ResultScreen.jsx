@@ -117,7 +117,10 @@ const ResultScreen = ({ stats, playerName, onPlayAgain, onHome }) => {
   if (!stats) return null; // Safety check
 
   return (
-    <div className="result-screen">
+    <div
+      className="result-screen"
+      style={{ backgroundImage: `url("${assetUrl('assets/maze-background.png')}")` }}
+    >
       <div className="result-card-glass">
         
         {isVictory ? (

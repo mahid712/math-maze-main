@@ -109,7 +109,10 @@ button {
 
 /* Coordinate Maze Styles */
 .maze-scene-grid {
-  background: url('/math-maze/assets/maze-background.png') center/cover no-repeat, #dcfce7;
+  background-color: #dcfce7;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   border-radius: 15px;
   height: 400px; /* IMPORTANT: Keeps the maze from shrinking */
   width: 100%;
@@ -288,7 +291,10 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url('/math-maze/assets/maze-background.png') center/cover no-repeat;
+  background-color: #dcfce7;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   overflow: hidden;
 }
 
@@ -481,7 +487,10 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url('/math-maze/assets/maze-background.png') center/cover no-repeat;
+  background-color: #dcfce7;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .result-screen::before {
